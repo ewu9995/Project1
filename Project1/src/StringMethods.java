@@ -6,7 +6,7 @@ public class StringMethods {
 }
 
 	public String cutOff(String mainStr, String subStr) {
-		 String first = str.substring(mainStr.length()*1/2); 
-		 String last = str.substring(subStr.length()*1/2); 
+		 String first = mainStr.substring(mainStr.length()*1/2); 
+		 String last = subStr.substring(subStr.length()*1/2); 
 		 return(first + last);
 	}
