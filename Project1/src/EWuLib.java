@@ -1,7 +1,8 @@
 // Evan Wu Project1
 public class EwuLib {
 	
-	public String dateStr 
+	public String dateStr () {
+		
 	
 	}
 
