@@ -1,5 +1,5 @@
 // Evan Wu Project1
-public class EwuLib {
+public class EWuLib {
 	
 	public String dateStr () {
 		
