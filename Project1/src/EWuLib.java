@@ -1,3 +1,4 @@
+// Evan Wu Project1
 public class EwuLib {
 	
 	public String dateStr 
@@ -12,4 +13,4 @@ public class EwuLib {
 
 	public static void isFibonnaci() {
 		for (int x =1; x ; x++) {
-		if (x++ == (	
+		
