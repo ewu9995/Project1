@@ -1,10 +1,8 @@
 // Evan Wu Project1
-import java.util.Date
 public class EWuLib {
 	
-	public String dateStr () {
-		SimpleDateFormat sdf1 = new SimpleDateFormat("E mm/dd/yyyy")
-		SimpleDateFormat sdf1 = new SimpleDateFormat("E dd-mm-yyyy")
+	public String dateStr (String mm/dd/yyyy) {
+		return ("dd-mm-yyyy");
 	
 	}
 
