@@ -32,3 +32,10 @@ public class EWuLib {
 	}
 		
 		
+public static String dateStr(int mm, int dd, int yyyy) {
+			String date = "mm/dd/yyyy";
+			System.out.println(mm + "-"+ dd+ "-" + yyyy);
+			{
+			return date;
+			}
+		}
