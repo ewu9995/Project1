@@ -12,10 +12,20 @@ public class EWuLib {
 		 return(first + last);
 	}
 
+	
 	public static void isFibonnaci() {
 		int x = 0;
 		int y = 0;
 		int z = 0;
+	
 		while (x<=1) {
-			
+		if (x == y + z)
+		{
+		System.out.println(x);
+		}
+		x++;
+		}
+	}
+	}
+		
 		
