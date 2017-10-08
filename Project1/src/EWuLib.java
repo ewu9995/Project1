@@ -2,8 +2,10 @@
 public class EWuLib {
 	
 	public String dateStr (String mm/dd/yyyy) {
-		return ("dd-mm-yyyy");
 	
+		return (dd + "-" + mm +"-" + yyyy);
+		
+		
 	}
 
 	public String cutOut(String mainStr, String subStr) {
@@ -31,11 +33,4 @@ public class EWuLib {
 	}
 	}
 		
-		
-public static String dateStr(int mm, int dd, int yyyy) {
-			String date = "mm/dd/yyyy";
-			System.out.println(mm + "-"+ dd+ "-" + yyyy);
-			{
-			return date;
-			}
-		}
+
