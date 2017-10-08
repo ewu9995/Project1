@@ -13,5 +13,9 @@ public class EWuLib {
 	}
 
 	public static void isFibonnaci() {
-		for (int x =1; x ; x++) {
+		int x = 0;
+		int y = 0;
+		int z = 0;
+		while (x<=1) {
+			
 		
