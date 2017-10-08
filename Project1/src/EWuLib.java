@@ -1,14 +1,14 @@
 // Evan Wu Project1
 public class EWuLib {
 	
-	public String dateStr (String mm/dd/yyyy) {
-	
+	public static String dateStr(String mm, String dd, String yyyy) {
 		return (dd + "-" + mm +"-" + yyyy);
+		
 		
 		
 	}
 
-	public String cutOut(String mainStr, String subStr) {
+	public static String cutOut(String mainStr, String subStr) {
 		 //first is the first half of the output
 		 String first = mainStr.substring(0, mainStr.length()*1/2); 
 		 //last is the last half of the output
