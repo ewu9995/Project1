@@ -1,5 +1,7 @@
 // Evan Wu Project1
 public class EWuLib {
+	public static void main(String[] args) {
+	}
 	
 	public static String dateStr(String mm, String dd, String yyyy) {
 		return (dd + "-" + mm +"-" + yyyy);
