@@ -18,19 +18,21 @@ public class EWuLib {
 	}
 
 	
-	public static void isFibonnaci() {
-		int x = 0;
-		int y = x+1;
-		int z = y+1;
-	
-		while (x<=1) {
-		if (x == y + z)
-		{
-		System.out.println(x);
-		}
-		x++;
-		}
-	}
+		public static boolean isFinnobaci(int num) {
+				int x = 0;
+				while (x<= num)
+				{
+					int y = x+x;
+					int z = y+x;
+					if (num == y+z) {
+						return true;
+					}
+					x++;
+					
+					}
+				return false;
+					}
+
 	}
 		
 
