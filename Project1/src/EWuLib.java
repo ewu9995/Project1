@@ -1,8 +1,8 @@
 // Evan Wu Project1
 public class EWuLib {
 
-	
 	public static void dateStr(String mm, String dd, String yyyy) {
+		//Input is mm,dd,yyyy (mm/dd/yyyy) and output is (dd-mm-yyyy)
 		System.out.println(dd + "-" + mm +"-" + yyyy);
 	}
 
@@ -17,27 +17,28 @@ public class EWuLib {
 		 System.out.println(first + last);
 	}
 
-	
-	public static boolean isFinnobaci(int num) {
-				int x = 0;
-				while (x<= num)
-				{
-					int y = x+x;
-					int z = y+x;
-					if (num == y+z) {
-						return true;
-					}
-					x++;
-					
-					}
-				return false;
-					}
-
+	// A finnobaci sequence is true if and only if one or both of (5*i*i + 4) or (5*i*i - 4) is a perfect square.
+	// Source: Wikipedia
+	public static void isFinnobaci(int i) {
+		// below checks whether the plugged in input is a perfect square
+		if (perfectSquare(5*i*i + 4) || perfectSquare(5*i*i - 4))
+			{
+			System.out.println(true);
+		} else
+			System.out.println(false);
+		}
 		
 	
 
+	//this method determines whether a number is a perfect square
+	public static boolean perfectSquare(int num) {
+	//the statement below is used to find the square root of a given number
+	int x  = (int) Math.sqrt(num);
+	//if the number is a perfect square it returns true
+	if (x*x == num) {
+	return true;}
+	return false;
 	}
-		
 
 
-
+}
