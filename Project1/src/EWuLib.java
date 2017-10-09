@@ -17,10 +17,11 @@ public class EWuLib {
 		 System.out.println(first + last);
 	}
 
-	// A finnobaci sequence is true if and only if one or both of (5*i*i + 4) or (5*i*i - 4) is a perfect square.
+	// A finnobaci sequence is true if and only if one or both of (5x^2 + 4) or (5x^2 - 4) is a perfect square.
 	// Source: Wikipedia
 	public static void isFinnobaci(int i) {
 		// below checks whether the plugged in input is a perfect square
+		//i^2 is i*i
 		if (perfectSquare(5*i*i + 4) || perfectSquare(5*i*i - 4))
 			{
 			System.out.println(true);
