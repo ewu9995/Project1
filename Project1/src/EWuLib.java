@@ -20,8 +20,8 @@ public class EWuLib {
 	
 	public static void isFibonnaci() {
 		int x = 0;
-		int y = 0;
-		int z = 0;
+		int y = x+1;
+		int z = y+1;
 	
 		while (x<=1) {
 		if (x == y + z)
