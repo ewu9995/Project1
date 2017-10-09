@@ -36,7 +36,7 @@ public class EWuLib {
 	//the statement below is used to find the square root of a given number
 	int x  = (int) Math.sqrt(num);
 	//if the number is a perfect square it returns true
-	if (x*x == num) {
+	if (num/x == x) {
 	return true;}
 	return false;
 	}
