@@ -4,5 +4,9 @@ public class MethodMadness {
 		EWuLib.dateStr();
 		EWuLib.cutOut();
 		EWULib.isFinnobaci();
+		
+		JLauLib.
+		JLauLib.
+		JLauLib.
 	}
 }
