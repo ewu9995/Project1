@@ -1,5 +1,5 @@
 public class JLauLib {
-	public static void multiplication_Table (int base, int range)
+	public static void multiplicationTable (int base, int range)
 	{
 		for (int i = 0; i <= range; i++)
 		{
@@ -11,7 +11,7 @@ public class JLauLib {
 
 
 
-	public static void SumOfAll(int integer)
+	public static void sumUpTo(int integer)
 	{
 		int sum = 0;
 		for(int i = 0; i <= integer; i++)
