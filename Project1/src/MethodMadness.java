@@ -5,8 +5,8 @@ public class MethodMadness {
 		EWuLib.cutOut();
 		EWULib.isFinnobaci();
 		
-		JLauLib.
-		JLauLib.
-		JLauLib.
+		JLauLib.sumOfAll();
+		JLauLib.muiltplication_table();
+		
 	}
 }
