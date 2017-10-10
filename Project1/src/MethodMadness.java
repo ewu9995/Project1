@@ -6,7 +6,7 @@ public class MethodMadness {
 		EWuLib.isFinnobaci();
 		
 		JLauLib.sumUpTo();
-		JLauLib.muiltplicationtable();
+		JLauLib.multiplicationtable();
 		
 	}
 }
