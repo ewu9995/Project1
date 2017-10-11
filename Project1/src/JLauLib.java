@@ -1,3 +1,4 @@
+// Jeffrey Lau Project1
 public class JLauLib {
 	public static void multiplicationTable (int base, int range)
 	{
