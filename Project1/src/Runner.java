@@ -2,7 +2,7 @@
 //Project 1
 public class Runner {
 	public static void main(String [] args) {
-		EWuLib.dateStr(); // Enter input in form of dd/mm/yyyy
+		EWuLib.dateStr(); // Enter input in form of mm/dd/yyyy
 		EWuLib.cutOut(); // Enter input of two words/strings
 		EWuLib.isFibonacci(); // Enter any integer
 		
