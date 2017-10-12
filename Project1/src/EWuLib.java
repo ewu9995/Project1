@@ -26,7 +26,7 @@ public class EWuLib {
 
 	// A finnobaci sequence is true if and only if one or both of (5x^2 + 4) or (5x^2 - 4) is a perfect square.
 	// Source: Wikipedia
-	public static void isFinnobaci(int integer) {
+	public static void isFibonacci(int integer) {
 		// below checks whether the plugged in input is a perfect square
 		//i^2 is i*i
 		if (perfectSquare(5*integer*integer + 4) || perfectSquare(5*integer*integer - 4))
