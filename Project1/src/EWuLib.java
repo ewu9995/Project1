@@ -2,8 +2,8 @@
 public class EWuLib {
 
 	public static void dateStr(String date) {
+		String mm = date.substring(0,2);
 		String dd = date.substring(3,5);
- 		String mm = date.substring(0,2);
  		String yyyy = date.substring(6);
 		System.out.println(dd + "-" + mm +"-" + yyyy);
 	}
