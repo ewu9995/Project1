@@ -69,5 +69,23 @@ public class MainMethod {
 		System.out.println(sum);
 	}
 	
+	public static boolean isPalindrome(char[] checked_word)
+	{
+		int forward = 0;
+		int backward = checked_word.length- 1;
+		
+		while(backward > forward)
+		{
+			if(checked_word[forward] != checked_word[backward])
+			{
+				return false;
+			}
+				
+			backward--;
+			forward--;
+		}
+		return true;
+	}
+	
 	
 }
