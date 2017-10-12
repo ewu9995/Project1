@@ -2,12 +2,12 @@
 //Project 1
 public class Runner {
 	public static void main(String [] args) {
-		EWuLib.dateStr();
-		EWuLib.cutOut();
-		EWuLib.isFibonacci();
+		EWuLib.dateStr(); // Enter input in form of dd/mm/yyyy
+		EWuLib.cutOut(); // Enter input of two words/strings
+		EWuLib.isFibonacci(); // Enter any integer
 		
-		JLauLib.sumUpTo();
-		JLauLib.multiplicationtable();
-		JLauLib.isPalindrome();
+		JLauLib.sumUpTo(); // Enter any integer
+		JLauLib.multiplicationtable(); // Enter a base and range
+		JLauLib.isPalindrome(); // Enter any string.word
 	}
 }
