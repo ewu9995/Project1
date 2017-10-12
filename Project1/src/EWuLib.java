@@ -1,8 +1,10 @@
 // Evan Wu Project1
 public class EWuLib {
 
-	public static void dateStr(String mm, String dd, String yyyy) {
-		//Input is mm,dd,yyyy (mm/dd/yyyy) and output is (dd-mm-yyyy)
+	public static void dateStr(String date) {
+		String dd = date.substring(3,5);
+ 		String mm = date.substring(0,2);
+ 		String yyyy = date.substring(6);
 		System.out.println(dd + "-" + mm +"-" + yyyy);
 	}
 
