@@ -24,7 +24,7 @@ public class EWuLib {
 		 System.out.println(first + last);
 	}
 
-	// A finnobaci sequence is true if and only if one or both of (5x^2 + 4) or (5x^2 - 4) is a perfect square.
+	// A fibonacci sequence is true if and only if one or both of (5x^2 + 4) or (5x^2 - 4) is a perfect square.
 	// Source: Wikipedia
 	public static void isFibonacci(int integer) {
 		// below checks whether the plugged in input is a perfect square
