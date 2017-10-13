@@ -8,6 +8,6 @@ public class Runner {
 		
 		JLauLib.sumUpTo(); // Enter any integer
 		JLauLib.multiplicationtable(); // Enter a base and range
-		JLauLib.isPalindrome(); // Enter any string.word
+		JLauLib.isPalindrome(); // Enter any string/word
 	}
 }
