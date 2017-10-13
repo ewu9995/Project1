@@ -27,7 +27,7 @@ public class EWuLib {
 	// A fibonacci sequence is true if and only if one or both of (5x^2 + 4) or (5x^2 - 4) is a perfect square.
 	// Source: Wikipedia
 	public static void isFibonacci(int integer) {
-		// below checks whether the plugged in input is a perfect square
+		// below checks whether the plugged in input is a perfect square when it is plugged in with the mentioned formulas
 		//i^2 is i*i
 		if (perfectSquare(5*integer*integer + 4) || perfectSquare(5*integer*integer - 4))
 			{
