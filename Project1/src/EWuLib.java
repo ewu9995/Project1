@@ -38,7 +38,7 @@ public class EWuLib {
 		
 	
 
-	//this method determines whether a number is a perfect square
+	//this method determines whether a number is a perfect square for isFibonacci to work
 	public static boolean perfectSquare(int num) {
 	//the statement below is used to find the square root of a given number
 	int x  = (int) Math.sqrt(num);
