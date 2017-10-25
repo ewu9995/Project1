@@ -15,14 +15,16 @@ public class EWuLib {
 
 	
 	
-	public static void cutOut(String mainStr, String subStr) {
-		 //first is the first half of the output
-		 String first = mainStr.substring(0, mainStr.length()*1/2); 
-		 //last is the last half of the output
-		 String last = subStr.substring(subStr.length()*1/2); 
-		 // below will return the two halves
-		 System.out.println(first + last);
-	}
+		public static void cutOut(String mainStr, String subStr) {
+		// Checks the whole string
+		for(int i =0; i < mainStr.length()-1; i++){
+		// checks the string for subStr	
+		 if (mainStr.substring(i, i+ subStr.length()).equals(subStr))
+		// if it finds subStr, then it does not include it, instead it only includes the characters immediately preceding and following it	 
+		 System.out.println(mainStr.substring(0,i) + mainStr.substring(i + subStr.length()));
+		}
+		}
+	
 
 	// A fibonacci sequence is true if and only if one or both of (5x^2 + 4) or (5x^2 - 4) is a perfect square.
 	// Source: Wikipedia
