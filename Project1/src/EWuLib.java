@@ -1,4 +1,4 @@
-// Evan Wu Project1
+// Evan Wu Period 2 Project1
 public class EWuLib {
 
 	//input is mm/dd/yyyy
@@ -16,9 +16,9 @@ public class EWuLib {
 	
 	
 		public static void cutOut(String mainStr, String subStr) {
-		// Checks the whole string
+		//Scans the string for its characters
 		for(int i =0; i < mainStr.length()-subStr.length(); i++){
-		// checks the string for characters equal to subStr	
+		//checks the string for characters equal to subStr	
 		 if (mainStr.substring(i, i+ subStr.length()).equals(subStr))
 		// if it finds subStr, then it does not include it when printed/returned, instead it only includes the characters immediately preceding and following it	 
 		 System.out.println(mainStr.substring(0,i) + mainStr.substring(i + subStr.length()));
